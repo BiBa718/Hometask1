@@ -13,10 +13,9 @@ int derangements(int n) {
 int main() {
   int n;
 
-  printf("Введите количество писем: ");
   scanf("%d", &n);
 
-  printf("Количество способов неправильной рассылки: %d\n", derangements(n));
+  printf("%d\n", derangements(n));
 
   return 0;
 }
